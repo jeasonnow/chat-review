@@ -1,4 +1,4 @@
-# @koofe/chat-review
+# @santree/chat-review
 
 ## Install
 
