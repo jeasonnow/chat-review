@@ -1,10 +1,9 @@
 {
-  "name": "@koofe/chat-review",
-  "private": false,
+  "name": "@santree/chat-review",
   "homepage": "",
   "keywords": [],
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -23,9 +22,9 @@
     "format": "prettier --write --cache .",
     "lint": "eslint --cache .",
     "typecheck": "pnpm -r --parallel run typecheck",
-    "dev": "pnpm -r --parallel --filter='./packages/*' run dev",
+    "dev": "unbuild --stub",
     "build": "unbuild",
-    "prepublishOnly": "pnpm run build",
+    "prepublishOnly": "rm -rf dist && pnpm run build",
     "changeset": "changeset"
   },
   "devDependencies": {
