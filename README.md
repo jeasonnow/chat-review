@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm i @koofe/chat-review
+npm i @santree/chat-review
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm i @koofe/chat-review
 ### Node.js
 
 ```js
-import review from '@koofe/chat-review';
+import review from '@santree/chat-review';
 
 review({
   gitlabConfig: {
